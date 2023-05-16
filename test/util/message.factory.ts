@@ -22,7 +22,8 @@ type JWM = {
 };
 
 const UUID_PREFIX = 'urn:uuid:';
-const jwmPayloadType = 'https://infrablockchain.io/didcomm/1.0/';
+// NOTE : example
+const jwmPayloadType = 'https://localhost.io//1.0/';
 
 export const generateCreateTopicMessage = async (
   userDID: wsKeyPair,
